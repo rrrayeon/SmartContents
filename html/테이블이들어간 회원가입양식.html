@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>테이블속회원가입</title>
+</head>
+<body>
+
+<fieldset>
+<legend>필수입력입니다.</legend>
+
+
+<form action="테이블이들어간 회원가입.html" method="post">
+
+<table border="1" width="100%">
+  <caption>개인회원가입</caption>
+
+  <colgroup>
+<col width="20%"/>
+<col width="70%"/>
+  </colgroup>
+
+<tr>
+  <th><label for="userid">회원아이디</label></th>
+<td>
+    <input type="text" id="userid" placeholder="아이디" />
+    <label for="userid1"></label>
+    <input type="button" id="userid1" value="아이디중복조회" />
+      <span>(영문자 또는 숫자,4~15자리)</span>
+</td>
+</tr>
+
+<tr>
+<th><label for="password_1">비밀번호</label></th>
+<td>
+      <input type="password" id="password_1" placeholder="비밀번호를 입력하세요" />
+          <span>변경시에만 입력하십시오.(영문자 또는 숫자,4~15자리)</span>
+</td>
+</tr>
+
+<tr>
+<th><label for="password_2">비밀번호확인</label></th>
+<td>
+      <input type="password" id="password_2" placeholder="비밀번호를 확인하세요" />
+</td>
+</tr>
+
+<tr>
+<th><label for="username">회원성명</label></th>
+<td>
+    <input type="text" id="username">
+        <span>(한글 8자이내,영문 16자이내)</span>
+</td>
+</tr>
+
+<tr>
+<th><label for="id card number">주민등록번호</label></th>
+<td>
+    <input type="text" id="id card number" />
+    <label for="id card number_1">-</label>
+    <input type="password" id="id card number_1" />
+</td>
+</tr>
+
+<tr>
+<th><label for="number">전화번호</label></th>
+<td>
+  <select id="number">
+    <option value="">02</option>
+    <option value="">031</option>
+    <option value="">032</option>
+</select>
+
+  <label for="number_1">-</label>
+  <input type="text" id="number_1" />
+
+  <label for="number_2">-</label>
+  <input type="text" id="number_2" />
+</td>
+</tr>
+
+<tr>
+<th><label for="hnumber">휴대폰번호</label></th>
+<td>
+  <select id="hnumber">
+    <option value="">010</option>
+    <option value="">011</option>
+    <option value="">016</option>
+</select>
+
+    <label for="humber_1">-</label>
+    <input type="text" id="hnumber_1" />
+
+    <label for="hnumber_2">-</label>
+    <input type="text" id="hnumber_2" />
+
+</td>
+</tr>
+
+<tr>
+<th><label for="address">주소</label></th>
+<td>
+    <input type="text" id="address" />
+    <label for="address_1">-</label>
+    <input type="text" id="address_1" />
+    <label for="search"></label>
+    <input type="button" name="search" value="우편번호검색">
+    <label for="address_2"></label> <br />
+    <input type="text" id="address_2" />
+    <label for="address_3"></label> <br />
+    <input type="text" id="address_3" />
+</td>
+</tr>
+
+<tr>
+<th><label for="EE">E-mail</label></th>
+<td>
+  <input type="text" id="EE" />
+  <label for="EE_1">@</label>
+  <select id="EE_1">
+    <option value="">naver.com</option>
+    <option value="">gmail.com</option>
+    <option value="">daum.net</option>
+  </select>
+</td>
+</tr>
+
+<tr>
+<th><label for="EE_2">참조E-mail</label></th>
+<td>
+<input type="text" id="EE_2" />
+<label for="EE_3">@</label>
+<select id="EE_3">
+  <option value="">naver.com</option>
+  <option value="">gmail.com</option>
+  <option value="">daum.net</option>
+</select>
+<p>
+참조E-mail란? <br />
+E-mail고지를 받는 고객에게 ㅇ나ㅣ런ㅇ리ㅏㅇ너라ㅣㅇ너라ㅣㅇ널ㅇㄴ렁ㄴ <br />
+ㄹㄴㅇㄹㄴㅇㄹㅇㄹㅇㄴㄹㅇㄴㄹㅇㄴㄹㅇㄴㄹㄹㅇㄴㄹㄹㅇㄹㅇㄴ<br />
+ㄴㅇㄹㅇㄴㄹㅇㄴㄹㅇㄹㅇ <strong>단, 한국전력과 서울도시가스에만 해당됩니다.</strong>
+</p>
+  </td>
+</tr>
+
+<tr>
+<th><label for="yes">한빌부가서비스안내수신</label></th>
+<td>
+<input type="radio" id="yes" name="trans"/>예
+<label for="no"></label>
+<input type="radio" id="no" name="trans"/>아니오
+</td>
+</tr>
+
+<tr>
+<th><label for="recommend">추천인아이디</label></th>
+<td>
+  <input type="text" id="recommend" />
+</td>
+</tr>
+
+</table>
+
+<label for="ook"></label>
+<input type="button" id="ook" value="확인">
+<label for="re"></label>
+<input type="button" id="re" value="재입력">
+
+</form>
+ </fieldset>
+
+</body>
+</html>
