@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>table</title>
+</head>
+<body>
+
+<!--가로형테이블
+thead는 머릿글
+tbody는 머릿글 이외의 몸통부분
+th태그는 thead기능이 +가운데정렬과 굵기표시
+tfoot은 thead와 tbody의사이 가운데가 원래 자리ex)시각장애인이라면,,합계가먼저듣고문제없다면 세부사항 pass
+caption은 큰제목
+colgroup을 부여해야 원하는 칸 간격을 조절할 수 있음.
+<col />은 단일 태그이고 width를 부여해줄수있음 table width에 준 400을 나눠가져야함.
+-->
+
+<table border="1" width="400">
+
+<caption>시간표</caption>
+<colgroup>
+<col width="100"/>
+<col width="150"/>
+<col width="100"/>
+<col width="50"/>
+</colgroup>
+
+<thead>
+<tr>
+<th>월</th>
+<th>화</th>
+<th>수</th>
+<th>목</th>
+</tr>
+</thead>
+
+<tfoot>
+<tr>
+<td></td>
+<td></td>
+<td>합계</td>
+<td>100</td>
+</tr>
+
+</tfoot>
+
+<tbody>
+<tr>
+<td>사과</td>
+<td>딸기</td>
+<td>바나나</td>
+<td>배</td>
+</tr>
+
+<tr>
+<td>사과</td>
+<td>딸기</td>
+<td>바나나</td>
+<td>배</td>
+</tr>
+
+</tbody>
+
+
+</table>
+
+
+
+
+
+<!-- 세로형테이블
+세로형일시 세로의 맨첫줄에만 th를씀 -->
+
+<table border="1" width="400">
+
+<tr>
+<th>월</th>
+<td>화</td>
+<td>수</td>
+<td>목</td>
+</tr>
+
+
+<tr>
+<td></td>
+<td></td>
+<td>합계</td>
+<td>100</td>
+</tr>
+
+
+<tbody>
+<tr>
+<th>사과</th>
+<td>딸기</td>
+<td>바나나</td>
+<td>배</td>
+</tr>
+
+<tr>
+<th>사과</th>
+<td>딸기</td>
+<td>바나나</td>
+<td>배</td>
+</tr>
+
+</tbody>
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
