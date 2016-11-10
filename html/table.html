@@ -114,8 +114,99 @@ colgroup을 부여해야 원하는 칸 간격을 조절할 수 있음.
 
 
 
+<!--
+ rowspan은 위아래 colspan은 좌우
+row와 col은 동시에 못씀
+ -->
+
+<table border="1" width="700">
+
+  <caption>시간표</caption>
+
+    <colgroup>
+<col width="300" />
+<col width="200" />
+<col width="200" />
+</colgroup>
 
 
+
+  <thead>
+<tr>
+  <th>사과</th>
+    <th>배</th>
+      <th>포도</th>
+</tr>
+</thead>
+
+<tfoot>
+<tr>
+<td></td>
+  <td>합계</td>
+    <td>200</td>
+</tr>
+</tfoot>
+
+
+<tbody>
+<tr>
+<td>사과</td>
+  <td>배</td>
+    <td>포도</td>
+</tr>
+</tbody>
+
+</table>
+
+
+
+<!-- 리딩방향
+scope은 읽는 방향이고
+scope는 th한테만 쓰일 수 있음
+scope를 col로 명시할 시 앞에 타이틀먼저읽고 밑으로 (세로).
+th쓰고 row명시 할 때 가로로 읽음
+<scope에서>
+col은 칸
+row는 줄 -->
+
+<table border="1" width="700">
+
+  <caption>시간표</caption>
+
+    <colgroup>
+<col width="300" />
+<col width="200" />
+<col width="200" />
+</colgroup>
+
+
+
+  <thead>
+<tr>
+  <th scope="col">title</th>
+    <th  scope="col">title</th>
+      <th  scope="col">title</th>
+</tr>
+</thead>
+
+<tfoot>
+<tr>
+<td></td>
+  <td>합계</td>
+    <td>200</td>
+</tr>
+</tfoot>
+
+
+<tbody>
+<tr>
+<td>사과</td>
+  <td>배</td>
+    <td>포도</td>
+</tr>
+</tbody>
+
+</table>
 
 
 
