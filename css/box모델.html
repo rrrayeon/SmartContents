@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ <title>box모델</title>
+
+ <style>
+/*
+min-width =최소넓이
+width = 넓이
+max-width = 최대넓이
+
+min-height =최소높이
+height = 높이
+max-height = 최대높이
+
+margin - 밖 여백
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+padding -안쪽 여백
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+
+
+border
+border-width
+border-style
+border-color
+*/
+
+/*
+#box {
+border:1px red solid;
+width: 100px;
+height: 100px;
+margin: 20px;
+padding:10px;
+  }
+  값구하기 좌우 100 140 160 162
+  */
+
+body {margin:0px;}
+
+/*div 부모는 body
+body부모는 html
+html 부모는 window
+100%+2때문에 벗어남.
+%는 무슨값+뭐가 된다
+%를 알고써야함.
+width:auto;는 현재 내 부모값을 생각해서 줄어듬.
+ex)menu ul {width:auto;}를줬을때 부모는 menu가됨 margin값을 10줬을때 부모기준으로 상하좌우 10씩 줄어듬
+{height:auto;}는 컨텐츠만큼임 안에있는 내용물이 늘어나면 자연스럽게 늘어남
+*/
+#box{
+width:200px;
+border:1px red solid;
+margin-left:auto;
+margin-right:auto;
+}
+
+ </style>
+
+</head>
+<body>
+<!-- div에 id를 부여했을시 선택자는 #이다 절대 바꿀 수 없음!
+body는 기본적으로 마진이들어가있음.
+
+ -->
+
+<div id="box">
+
+
+hello world
+
+
+</div>
+
+
+
+</body>
+</html>
