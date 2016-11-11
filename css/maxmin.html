@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>max min</title>
+  <style>
+
+  /*
+  max 400px;이하로는 줄어듬
+min 400px; 잘가다가 최소로 줄어들게되면 먹힘
+max-width 를 800주고 min-widht을 400줬을시 팔백에도달했을때더가면 줄어들다가 400에도달하고 더가면 컨텐츠가 점점 먹힘
+  */
+#box {
+  border: 1px red solid;
+max-width: 800px;
+/*넓이에 최대값 지정 지정된 값이상은 커지지 않는다*/
+min-width: 400px;
+/*넓이에 최소값 지정 지정된 값이하는 줄어들지 않는다*/
+}
+
+
+#hei {border: 1px red solid;
+  max-height: 300px;
+/*텍스트가 300넘엇을시 텍스트만 벗어남*/
+
+min-height: 300px;
+/*텍스트가 300넘엇을시 컨텐츠가 같이 늘어남*/
+}
+  </style>
+</head>
+<body>
+
+
+
+<div id="box">box</div>
+<div id="hei">box</div>
+
+
+</body>
+</html>
