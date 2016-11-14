@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>레이아웃에 회원가입</title>
+
+<style>
+.최순싱 {
+border:3px red solid;
+margin:0 auto;
+width:1000px;
+}
+
+.트럼픙 {
+border:1px blue solid;
+width:300px;
+height:400px;
+float:left;
+}
+
+
+.부싱 {
+  height: 100px;
+  border:1px gold solid;
+}
+
+
+.힐러링 {
+border:1px green solid;
+min-height: 600px;
+margin-left: 320px;
+}
+
+.김재귱 {
+border: 1px red solid;
+margin:0 auto;
+width:1000px;
+height: 120px;
+
+}
+</style>
+
+</head>
+<body>
+
+
+
+
+<div class="최순싱">
+<div class="부싱">~~~~~~~</div>
+<div class="트럼픙">!!!!!!!!!!!!!!!!!!!!!!!!!</div>
+<div class="힐러링">
+
+  <fieldset>
+    <legend>필수입력부분</legend>
+
+  <form action="레이아웃잡기회원가입양식.html" method="post">
+
+<table border="1px" width="100%">
+  <caption>회원가입양식</caption>
+
+          <colgroup>
+              <col width="20%" />
+              <col width="80%" />
+          </colgroup>
+
+<tbody>
+
+<tr>
+    <th><label for="userid">회원아이디</label></th>
+<td>
+      <input type="text" id="userid" placeholder="아이디를 입력해주세요" />
+      <input type="button" value="아이디중복조회" />
+          <span>(영문자 또는 숫자4자리~15자리)</span>
+</td>
+</tr>
+
+<tr>
+    <th><label for="userpass">비밀번호</label></th>
+<td>
+      <input type="password" id="userpass" placeholder="비밀번호를 입력해주세요" />
+          <span>변경시에만 입력바랍니다.(영문자 또는 숫자4자리~15자리)</span>
+</td>
+</tr>
+
+
+<tr>
+    <th><label for="userpass1">비밀번호확인</label></th>
+<td>
+      <input type="password" id="userpass1" />
+</td>
+</tr>
+
+
+<tr>
+    <th><label for="userna">회원성명</label></th>
+<td>
+      <input type="text" id="userna" />
+        <span>(한글 8자이내,영문16자 이내)</span>
+</td>
+</tr>
+
+
+<tr>
+    <th><label for="id card number">주민등록번호</label></th>
+<td>
+      <input type="text" id="id card number" />
+      <span>-</span>
+      <label for="id card number1"><input type="password" id="id card number1" /></label>
+
+</td>
+</tr>
+
+
+<tr>
+    <th><label for="number">전화번호</label></th>
+<td>
+      <select id="number">
+          <option value="02">02</option>
+          <option value="031">031</option>
+          <option value="032">032</option>
+      </select>
+        <span>-</span>
+          <label for="number1"><input type="text" id="number1"></label>
+          <span>-</span>
+            <label for="number2"><input type="text" id="number2"></label>
+</td>
+</tr>
+
+
+<tr>
+    <th><label for="hnumber">휴대폰번호</label></th>
+<td>
+      <select id="hnumber">
+          <option value="010">010</option>
+          <option value="011">011</option>
+          <option value="017">017</option>
+      </select>
+        <span>-</span>
+          <label for="hnumber1"><input type="text" id="hnumber1"></label>
+          <span>-</span>
+            <label for="hnumber2"><input type="text" id="hnumber2"></label>
+</td>
+</tr>
+
+
+
+<tr>
+    <th><label for="address">주소</label></th>
+<td>
+    <input type="text" id="address" />
+     <span>-</span>
+     <label for="address1"><input type="text" id="address1"></label> <br />
+     <label for="address2"><input type="text" id="address2"></label> <br />
+     <label for="address3"><input type="text" id="address3"></label>
+</td>
+</tr>
+
+
+<tr>
+    <th><label for="EE">E-mail</label></th>
+<td>
+      <input type="text" id="EE" />
+        <span>@</span>
+            <label for="EE1"></label>
+            <select id="EE1" >
+                <option value="naver.com">네이버</option>
+                <option value="gmail.com">구글</option>
+                <option value="daum.net">다음</option>
+
+            </select>
+</td>
+</tr>
+
+
+<tr>
+    <th><label for="CEE">참조E-mail</label></th>
+<td>
+      <input type="text" id="CEE" />
+        <span>@</span>
+            <label for="CEE1"></label>
+            <select id="CEE1" >
+                <option value="naver.com">네이버</option>
+                <option value="gmail.com">구글</option>
+                <option value="daum.net">다음</option>
+                </select>
+              <p>
+<strong>참조이메일이란?</strong> <br />
+참조이메일은 ㅎ이ㅏ널ㄴ이ㅏ렁니ㅏ렁니ㅏ렁나ㅣㅓㄹㅇㄴ <br />
+ㄴㅇㄹㅇㄴㄹㅇ너링너리ㅓ알너ㅣ <strong>단,전력</strong>입니다.
+  </p>
+</td>
+</tr>
+
+
+
+<tr>
+    <th><label for="yes">한빌 부가서비스</label></th>
+<td>
+  <input type="radio" id="yes" name="trans"> 예
+<label for="no"><input type="radio" id="no" name="trans"> 아니오</label>
+</td>
+</tr>
+
+</tbody>
+
+</table>
+
+
+<input type="button" value="확인">
+<input type="button" value="재입력">
+
+</form>
+
+</fieldset>
+
+</div>
+</div>
+
+<div class="김재귱">뚱뚱뚱뚱
+</div>
+
+
+
+
+</body>
+</html>
