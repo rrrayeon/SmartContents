@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>신문레이아웃 다시 만들어보기.</title>
+<style>
+.guide_line{
+  outline:1px #F00 solid;}
+
+.wrap {
+width:900px;
+height:540px;
+margin:0 auto;
+}
+
+.header {
+height:110px;
+margin: 0 30px;
+}
+
+.logo {
+width:260px;
+  height:55px;
+  float: left;
+}
+
+.banner {
+width: 468px;
+height: 60px;
+float: right;
+background:orange;
+margin-top: 40px;
+}
+
+
+
+.contents{
+height:380px;
+margin:0 30px;
+margin-top: 10px;
+}
+
+.contents>.left {
+width:513px;
+height:100%;
+float: left;
+
+}
+
+.contents>.left .up {
+height:130px;
+}
+
+.contents>.left .down {
+height:244px;
+margin-top: 6px;
+}
+
+.contents>.left .up .upup {
+width:160px;
+height:94px;
+float: left;
+margin-top: 20px;
+}
+
+.contents>.left .up .downdown {
+width:336px;
+height:94px;
+float: right;
+margin-top: 20px;
+}
+
+
+.contents>.left .down .upup {
+width:162px;
+height:240px;
+float: left;
+}
+
+.contents>.left .down .downdown {
+width:350px;
+height:240px;
+float: right;
+}
+
+
+
+
+
+/*.contents>.right {
+margin-left: 533px;
+height:100%;
+background:green;
+}*/
+
+
+.contents>.right {
+width:307px;
+height:100%;
+float: right;
+}
+
+
+
+.contents>.right .up {
+height:112px;
+}
+
+.contents>.right .down {
+height:255px;
+margin-top: 13px;
+}
+
+.contents>.right .up .upup {
+width:307px;
+height:112px;
+background:#999;
+}
+
+.contents>.right .down .upup {
+width:307px;
+height:255px;
+background:yellow;
+}
+
+.contents>.right .down .upup .img1 {
+width:146px;
+height:95px;
+background:blue;
+float: left;
+margin-right: 15px;
+margin-top: 25px;
+margin-bottom: 20px;
+}
+.contents>.right .down .upup .img2 {
+width:146px;
+height:95px;
+background:blue;
+float: left;
+margin-top: 25px;
+margin-bottom: 20px;
+}
+.contents>.right .down .upup .img3 {
+width:146px;
+height:95px;
+background:blue;
+float: left;
+margin-right: 15px;
+}
+.contents>.right .down .upup .img4 {
+width:146px;
+height:95px;
+background:blue;
+float: left;
+}
+
+
+</style>
+
+</head>
+<body>
+
+  <div class="wrap guide_line">
+
+  <div class="header guide_line">
+      <div class="logo guide_line">logoimg</div>
+      <div class="banner guide_line">배너</div>
+  </div>
+
+  <div class="contents guide_line">
+
+    <div class="left guide_line">
+
+          <div class="up guide_line">
+                        <div class="upup guide_line">1</div>
+                        <div class="downdown guide_line">2</div>
+          </div>
+          <div class="down guide_line">
+                      <div class="upup guide_line">3</div>
+                      <div class="downdown guide_line">4</div>
+          </div>
+  </div>
+
+    <div class="right guide_line">
+
+      <div class="up guide_line">
+            <div class="upup guide_line">1</div>
+
+    </div>
+      <div class="down guide_line">
+                <div class="upup guide_line">
+<div class="img1 guide_line">1</div>
+<div class="img2 guide_line">2</div>
+<div class="img3 guide_line">3</div>
+<div class="img4 guide_line">4</div>
+                </div>
+
+      </div>
+ </div>
+
+  </div>
+</div>
+
+
+</body>
+</html>
