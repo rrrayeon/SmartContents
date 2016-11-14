@@ -2,11 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
-</head>
-<body>
+  <title>background size</title>
+<style>
 
-  
+body {margin:0;}
+body,html {height:100%}
+
+.wrap {
+height:100%;
+border:1px red solid;
+ background-attachment: fixed;
+   /*background-attachment: local;*/
+}
+
+.a {background-image:url(img/a.jpg);}
+.b {background-image:url(img/b.jpg);}
+.c {background-image:url(img/c.jpg);
+  height:100px;
+  color:#FFF;
+}
+.d {background-image:url(img/d.jpg);}
+
+
+</style>
+</head>
+
+<body>
+<div class="wrap a"></div>
+<div class="wrap b"></div>
+<div class="wrap c">
+<h1>안녕하세요</h1>
+
+</div>
+<div class="wrap d"></div>
+
 
 
 </body>
