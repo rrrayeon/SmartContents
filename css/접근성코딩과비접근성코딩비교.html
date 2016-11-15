@@ -14,7 +14,12 @@
 .accessbility{width:513px; height:132px; border:1px #F00 solid; }
 .accessbility ul li{font-size:12px;}
 .accessbility ul li.first-article{border:1px #F00 solid;margin-bottom:10px;}
-.accessbility ul li.first-article>strong{display: block; font-size:20px;}
+.accessbility ul li.first-article>strong
+{display: block;
+  /*이미지한테 float속성을 주게되면 이미지가 붕뜨면서
+  인라인속성컨텐츠 글씨는 옆으로감
+  display block으로 만들어서 float위로 이동할 수 있음.*/
+  font-size:20px;}
 .accessbility ul li.first-article>span{width:160px;
  margin-right:10px;
  margin-top:10px;
