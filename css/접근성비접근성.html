@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>접근성비접근성공부</title>
+<style>
+*{margin:0; padding:0;}
+ul li {list-style: none;}
+.article {
+border: 1px #F00 solid;
+width: 513px;
+height: 132px;
+}
+
+.article ul li {font-size: 12px;}
+
+.article ul li.first-article {
+border: 1px green solid;
+margin-bottom: 10px;
+}
+
+.article ul li.first-article>strong {
+display: block;
+/*이미지한테 float속성을 주게되면 이미지가 붕뜨면서
+인라인속성컨텐츠 글씨는 옆으로감
+display block으로 만들어서 float위로 이동할 수 있음.*/
+font-size: 20px;
+}
+
+.article ul li.first-article>span {
+width: 160px;
+height: 94px;
+margin-right:10px;
+margin-top: 10px;
+border: 1px red solid;
+display: block;
+overflow: hidden;
+float: left;
+}
+
+.article ul li.first-article>span img {
+width: 100%;
+}
+
+.article ul li.first-article p {
+margin-top: 10px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="article">
+<ul>
+  <li class="first-article">
+<strong>삼성, 美전장기업 하만 9조3000억에 인수</strong>
+<span> <img src="http://static.naver.net/newsstand/2016/1115/etnews/102250/001.jpg"  alt="우리나라태극기"   /></span>
+<p>
+  삼성전자가 미국 전장 전문 기업 하만을 인수했다. 신성장 분야인 자동차 전장 사업을 대폭 강화하기 위한 조치다. 삼성전자는 미래 자동차 시장에서 퀀텀 점프를 노린다....
+</p>
+
+</li>
+<li>[해설]삼성전자 `스마트 카` 주도권 의지 드러냈다</li>
+<li>[해설]삼성전자 `스마트 카` 주도권 의지 드러냈다</li>
+</ul>
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+
+
+ <div class="arti">
+<ul>
+  <li class="first-arti">
+<strong>삼성, 美전장기업 하만 9조3000억에 인수</strong>
+<span><img src="http://static.naver.net/newsstand/2016/1115/etnews/102250/001.jpg"  alt="우리나라태극기" ></span>
+<p>
+  삼성전자가 미국 전장 전문 기업 하만을 인수했다. 신성장 분야인 자동차 전장 사업을 대폭 강화하기 위한 조치다. 삼성전자는 미래 자동차 시장에서 퀀텀 점프를 노린다....
+</p>
+  </li>
+  <li>[해설]삼성전자 `스마트 카` 주도권 의지 드러냈다</li>
+  <li>[해설]삼성전자 `스마트 카` 주도권 의지 드러냈다</li>
+</ul>
+
+ </div>
+
+
+
+</div>
+
+
+</body>
+</html>
