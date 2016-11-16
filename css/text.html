@@ -26,11 +26,19 @@ font-weight:bold;
 
 font-family: "돋움";
 font-family:Helvetica,Dotum,'돋움','Apple SD GothicNeo',sans-serif;
-
-
   color:red;
 }
 
+
+
+.box div p {color:initial;}
+ /*상속 안받겠다*/
+
+ .box div a {color:inherit;}
+ /*상속받겠다 */
+
+ .box {letter-spacing: -0.8px; word-spacing: 20px; word-break: keep-all;}
+ /*           자간             띄어쓰기 부분 더 띄우기      읽기쉽게 끝에서 끊어주기*/
 
 </style>
 
@@ -43,6 +51,7 @@ font-family:Helvetica,Dotum,'돋움','Apple SD GothicNeo',sans-serif;
 <p>abcddeeeed ggggg qlkqhqq</p>
 <div>dgdsfdsfsdfsdfsdfdsfdsfds안녕안녕안녕
 <p>dsfsdfsdfdsfsdfdsf</p>
+<a href="">dsfsdfsdfdsfsdfdsf</a>
 </div>
 
 </div>
