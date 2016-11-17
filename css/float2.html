@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>part2.float</title>
+  <style>
+  /*margin값은 이동하는게아니라 영역이있기때문에 밀리는것 (안보이는영역)
+width나 height값이 정해져있어야 다음 요소에 100%가먹는것
+  */
+
+[class^="top"]{border: 1px red solid; height: 100%; }
+/*1과정*/
+/*.top-left {width: 200px; }
+.top-center {}
+.top-right {width: 200px;}*/
+/*1과정설명 left와 right한테는 박스 사이즈 동일하게줌*/
+
+/*2과정*/
+/*.top-left {width: 200px; float: left;}
+.top-center {}
+.top-right {width: 200px;}*/
+/*2과정설명 left에 float을 줬기때문에 center는 옆으로 붙는다 길이는 똑같고 일부가 겹침 텍스트는
+침범할수없기때문에 옆에있음*/
+
+
+/*3과정*/
+/*.top-left {width: 200px; float: left;}
+.top-center {}
+.top-right {width: 200px; float: right;}*/
+/*right한테 float을 줬는데 위로 안올라오고 center밑에있음*/
+
+/*4과정*/
+/*.top-left {width: 200px; float: left;}
+.top-center {}
+.top-right {width: 200px; float: right;}*/
+/*4과정 설명  위에 3과정에서 right가 안뜬이유는 float이 선언된 엘리먼트 위에 요소 위로는
+뜰 수 없기 때문에 right를 center위에 배치 해줌으로 정상 작동*/
+
+
+/*5과정*/
+/*.top-left {width: 200px; float: left;}
+.top-center {margin: 0 200px; background-color: green;}
+margin값을 박스left와 right의 width값 200px만큼 주니까 줄어듬
+.top-right {width: 200px; float: right;}*/
+
+
+
+.top-left {width: 200px; float: left;}
+.top-center {margin: 0 210px; background-color: green;}
+.top-right {width: 200px; float: right;}
+
+
+  </style>
+</head>
+<body>
+
+<h1>3단 겹침 float 레이아웃</h1>
+<!-- 1과정 -->
+<!-- <div class="top-left">1</div>
+<div class="top-center">2</div>
+<div class="top-right">3</div> -->
+
+
+<!-- 2과정 -->
+<!-- <div class="top-left">1</div>
+<div class="top-center">2</div>
+<div class="top-right">3</div> -->
+
+
+<!-- 3과정 -->
+ <!-- <div class="top-left">1</div>
+<div class="top-center">2</div>
+<div class="top-right">3</div> -->
+
+<!-- 4과정 -->
+ <!-- <div class="top-left">1</div>
+ <div class="top-right">3</div>
+<div class="top-center">2</div> -->
+
+<!-- 5과정 -->
+<!-- <div class="top-left">1</div>
+<div class="top-right">3</div>
+<div class="top-center">2</div> -->
+
+
+<div class="top-left">1</div>
+<div class="top-right">3</div>
+<div class="top-center">2</div>
+
+</body>
+</html>
