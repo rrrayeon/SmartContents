@@ -1,0 +1,110 @@
+
+  *{margin:0; padding:0;}
+  ul { list-style:none; }
+  p {margin:0; padding:0px;}
+  a {text-decoration: none;}
+
+       body{background:url(http://static.naver.net/newsstand/img/20121231/bg_bd.png);}
+        .gride_line{outline:1px #CCC solid;}
+        .wrapper {background:url(http://static.naver.net/newsstand/img/20121231/bg_panel.png)50% 0 no-repeat; width:900px; height:540px; margin: 0 auto;}
+        .header {height:110px; margin:0 30px 20px; position:relative;  border-bottom:2px solid #000;}
+        h1{width:260px; height:55px; float:left; position:absolute; left:0; top:30px;}
+        .banner {width:468px; height:60px; float:right; position:absolute; top:40px; right:0;}
+
+        .btn {width:210px; height:24px; position:absolute; top:68px;}
+        .icon_info {font-size:0; height:22px; display:inline-block; background:url(http://static.naver.net/newsstand/img/20140716/sp_nwstd.png)no-repeat;}
+        .read {background-position:-187px -199px; width:66px; }
+        .comment{background-position: -293px -174px; width:75px;}
+        .share {background-position: -500px -270px; width:28px;}
+        .header span {position:absolute; top:84px; left:190px; display:inline-block; font-size:12px; line-height:24px; vertical-align:middle;}
+
+        .content {height:380px; margin:0 30px;}
+
+        /*content 안에 left 영역 */
+        .left{width:630px; height:100%; float:left;}
+
+
+        /*content 안에 left 영역 안에 info영역 */
+        .info{width:90px; height:380px; float:left;}
+        .info ul li {list-style: none;}
+        .small_logo{height:29px; margin-bottom:5px;}
+
+        .all {border:1px solid #CCC; position:relative; width:100%; height:346px;}
+        .all .repetition span {border-radius:5px; position:absolute; left:6px; width:78px; height:87px; overflow:hidden;}
+        .all .repetition1 {position:absolute; font-size:13px; left:6px; color:#1197ca;}
+        .all .repetition2 {color:#333; position:absolute; left:4px; font-size: 12px;}
+
+        .all .img1 span {top:50px;}
+        .all .img1 strong {top:30px;}
+        .all .img1 p {top:140px;}
+
+        .all .img2 span {top:216px;}
+        .all .img2 strong {top:190px;}
+        .all .img2 p {top:306px;}
+
+        .all .img1 img,
+        .all .img2 img{width:200%;}
+        .all .img1 a,.all .img2 a {color:#333; text-decoration:none;}
+        .all .img1 a:hover,.all .img2 a:hover {color:#1197ca; text-decoration: underline;}
+
+        .all .box {position:absolute; top:0; left:0; width:90px; height:26px; background-color:#1197ca;}
+        .all .box span{float:left; padding-top:4px; padding-left:6px;}
+        .all .box p{float:right; font-size:12px; color:#FFF; padding-top:4px; padding-right:6px;}
+
+       /*content 안에 left 영역 안에 big_info영역 */
+       .big_info{width:530px; height:100%; float:right;}
+
+       /*big_info의 top영역*/
+        .top{width:100%; height:199px; margin-bottom:10px;}
+        .top .image1,
+        .top .image2,
+        .top .image3{position:relative;}
+        .top .image1 span{float:left; width:353px; height:199px; display:block; overflow:hidden;}
+        .top .image2 span{float:right; width:172px; height:97px; display:block; overflow:hidden;}
+        .top .image3 span{margin-top:5px; float:right; width:172px; height:97px; display:block; overflow:hidden;}
+
+        .top .image1 span img,
+        .top .image2 span img,
+        .top .image3 span img{width:100%;}
+
+        .top .image1 .black_box1 {position:absolute; top:169px; width:353px; height:30px; background-color:rgba(0,0,0,0.7);}
+        .top .image1 .black_box1 p{color:#CCC; font-size:12px; padding-top:5px; padding-left:10px;}
+        .top .image1 strong{position:absolute; left:10px; top:110px;  font-size:20px; color:#FFF;}
+        .top .text {position:absolute; left:358px; color:#FFF; font-size:12px; padding-top:5px; padding-left:10px;}
+        .top .image2  p{top:56px;}
+        .top .image3  p{top:156px;}
+
+        /*big_info의 bottom영역*/
+        .bottom{width:100%; height:171px;}
+        .bottom .up {width:100%; height:23px; background-color:#1197ca;}
+        .bottom .up span{padding-left:20px; font-size:12px; color:#FFF;}
+        /*.bottom .up_left{width:244px; height:148px; float:left; border-right:1px #CCC solid;}*/
+        /*.bottom .up_left .pic span{width:100px; height:56px; overflow:hidden; display:block; float:left;}*/
+        /*.bottom .up_left .pic span img{width:100%;}*/
+        /*.bottom .up_left .pic p {font-size: 12px;padding-top:10px;}*/
+        .up_left {float:left; overflow:hidden; width:225px; height:124px; padding:12px 10px;}
+        .up_left li { height:56px; margin-bottom:12px;}
+        .up_left li span{float:left; display:block; width:100px; height:56px; }
+        .up_left li p{ margin-left:110px; color:#333;font-size:12px; height:53px; padding-top:3px; }
+        .up_left li span img {width:100%;}
+        .bottom .up_right{width:285px;height:148px; float:right;}
+        .bottom .up_right .radius {margin-left:10px; background:url(http://static.naver.net/newsstand/2017/0124/sbs/135550/019.gif) no-repeat 0 12px;}
+        .bottom .up_right ul li{list-style:none; font-size:13px; line-height:24px; padding-left:6px;}
+
+        /*content 안에 right 영역 */
+        .right{width:200px; height:100%;float:right;}
+        .right .top_right {width:200px; height:200px; margin-bottom:10px;border-bottom:1px solid #CCC;}
+        .right .top_right ul li{margin-left:10px; list-style: none; font-size:12px; line-height:20px;}
+        .right .top_right ul li a:hover{color:#1197ca; text-decoration: underline;}
+
+        .right .top_right a {text-decoration:none; color:#333;}
+        .right .top_right span{color:#1197ca; padding-right:10px;}
+
+
+        .right .down_right {width:200px; height:171px;}
+        .right .down_right .last_img span {width:200px; height:100px; overflow:hidden; display:block;}
+        .right .down_right .last_img span img {width:100%;}
+        .right .down_right .last_img strong {display:block; padding-left:10px; font-size:13px;}
+        .right .down_right .last_img p {font-size:12px; color:gray; padding-left:10px; padding-top:10px;}
+        .right .down_right .last_img a{text-decoration: none; color:#000;}
+        .right .down_right .last_img a:hover{color:#1197ca; text-decoration: underline;}
