@@ -1,0 +1,48 @@
+    *{margin:0; padding:0;}
+    /*.guide_line{outline:1px solid gray;}*/
+    body{background:url(http://static.naver.net/newsstand/img/20121231/bg_bd.png); font-family:'돋움',Dotum,Helvetica,sans-serif; font-size:12px; line-height:16px;}
+    .le{float:left;}
+    .ri{float:right;}
+    a{text-decoration:none;}
+    ul li{list-style:none;}
+    .bg{background:url(http://static.naver.net/newsstand/img/20140716/sp_nwstd.png) no-repeat; text-indent:-9999px;}
+    .wrapper{width:900px; height:540px; margin:0 auto; background:url(http://static.naver.net/newsstand/img/20121231/bg_panel.png) 50% 0 no-repeat;}
+    .header{position:relative; height:108px; margin:0 30px; border-bottom:3px solid #545454;}
+    .header h1{width:260px; height:55px; padding:20px 0 33px;}
+    .header span{display:inline-block; width:468px; height:60px; padding:40px 0 10px;}
+    .subscription{position:absolute; bottom:2px; left:0; display:block; width:66px; height:22px; background-position:-187px -199px;}
+    .people{display:block; position:absolute; bottom:2px; left:69px; width:75px; height:22px; background-position:-293px -174px;}
+    .social{display:block; position:absolute; bottom:2px; left:149px; width:28px; height:22px; background-position:-500px -270px;}
+    .info{display:block; width:93px; height:20px; position:absolute; top:46px; left:180px; font-family:tahoma; color:#454545; font-size:11px;}
+    .info em{margin-right:2px; font-style:normal;}
+    .content{height:380px; margin:20px 30px 0;}
+    .top{height:250px; margin-bottom:10px;}
+    .top_left_info,.bottom_left_info{width:520px; height:100%;}
+    .top_right_info,.bottom_right_info{width:320px; height:100%;}
+    .img_box{position:relative; color:#fff; font-weight:bold;}
+    .left_img{width:370px; height:250px; margin-right:10px;}
+    .left_img span{height:100%; display: block; overflow:hidden; }
+    .left_img span img,.right_img span img{border:1px solid #dcdcdc;}
+    .text_box1{width:369px; height:45px; font-size:16px; position:absolute; top:205px; left:1px; background-color:rgba(0, 0, 0, 0.6);}
+    .right_img{width:130px; height:250px; margin-right:10px;}
+    .right_img span{height:100%; display:block; overflow:hidden;}
+    .text_box2{width:129px; height:45px; font-size:11px; position:absolute; top:205px; left:381px; background-color:rgba(0, 0, 0, 0.6);}
+    .text_box1 p {text-align:center; padding:13px;}
+    .text_box2 p {padding:8px;}
+    .list_info{background:url(http://static.naver.net/newsstand/2017/1026/mydaily/122000/008.png) no-repeat; color:#666; line-height:23px; padding:10px;}
+    .list_info ul li{list-style:disc; list-style:inside; margin-left:-5px;}
+    .bottom{height:120px; position:relative;}
+    .right_info_img,.left_info_img{float:left; line-height:15px; color:#444; width:320px; height:120px;}
+    .top_img {padding-bottom:10px;}
+    .top_img span,.down_img span{width:85px; height:55px; display:block; overflow:hidden; margin-right:10px;}
+    .top_img span img,.down_img span img{width:100%; border:1px solid #dcdcdc;}
+    .top_img strong,.down_img strong{font-weight: bold; display:block; padding:3px 0 7px;}
+    .size{width:310px; height:120px;}
+    .left_info_img2 {position:relative; width:190px; height:120px; float:right; margin-right:10px; font-size:11px; font-weight:bold; color:#fff;}
+    .left_info_img2 span{height:100%; display:block; overflow:hidden;}
+    .left_info_img2 span img{border:1px solid #dcdcdc; width:100%;}
+    .text_box3{position:absolute; bottom:0; left:0; width:190px; height:46px; background-color:rgba(0, 0, 0, 0.6);}
+    .text_box3 p {padding:9px;}
+    .footer{position:absolute; bottom:-18px; right:0; font-size:11px; color:#494949; letter-spacing:-1px;}
+    .footer strong{font-weight:bold; color:#4a7ce4;}
+    .icon{width:3px;height:6px; display:inline-block; vertical-align: middle; background-position: -510px -300px;}
