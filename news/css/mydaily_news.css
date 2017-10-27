@@ -22,14 +22,15 @@
     .img_box{position:relative; color:#fff; font-weight:bold;}
     .left_img{width:370px; height:250px; margin-right:10px;}
     .left_img span{height:100%; display: block; overflow:hidden; }
-    .left_img span img,.right_img span img{border:1px solid #dcdcdc;}
+    .left_img span img{width:110%; border:1px solid #dcdcdc;}
+    .right_img span img{width:100%;border:1px solid #dcdcdc;}
     .text_box1{width:369px; height:45px; font-size:16px; position:absolute; top:205px; left:1px; background-color:rgba(0, 0, 0, 0.6);}
     .right_img{width:130px; height:250px; margin-right:10px;}
     .right_img span{height:100%; display:block; overflow:hidden;}
     .text_box2{width:129px; height:45px; font-size:11px; position:absolute; top:205px; left:381px; background-color:rgba(0, 0, 0, 0.6);}
     .text_box1 p {text-align:center; padding:13px;}
     .text_box2 p {padding:8px;}
-    .list_info{background:url(http://static.naver.net/newsstand/2017/1026/mydaily/122000/008.png) no-repeat; color:#666; line-height:23px; padding:10px;}
+    .list_info{background:url(http://static.naver.net/newsstand/2017/1026/mydaily/122000/008.png) no-repeat; color:#666; line-height:24px; padding:10px;}
     .list_info ul li{list-style:disc; list-style:inside; margin-left:-5px;}
     .bottom{height:120px; position:relative;}
     .right_info_img,.left_info_img{float:left; line-height:15px; color:#444; width:320px; height:120px;}
